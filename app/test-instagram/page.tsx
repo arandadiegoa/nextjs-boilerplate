@@ -1,6 +1,6 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-const Page = () => {
+const TestInstagramPage = ()  => {
     return (
         <>
             <Head>
@@ -19,7 +19,7 @@ const Page = () => {
             <h1>Bienvenido a mi App</h1>
             <img src=" https://www.fravega.com/centro-de-ayuda/_next/image?url=%2Fcentro-de-ayuda%2F_next%2Fstatic%2Fmedia%2Fimg-familia.4dfbfbb6.jpg&w=1920&q=75" alt="" />
         </>
-    );
-};
+    )
+}
 
-export default Page;
+export default TestInstagramPage;
